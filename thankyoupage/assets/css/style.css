@@ -1,0 +1,244 @@
+*{
+    padding: 0 ;
+    margin:0 ;
+}
+main{
+    width: 60%;
+    background-color:  #f8f3ed;
+    margin: auto;
+    /* border: 1px solid #004523; */
+    font-family: 'Segoe UI regular';
+    height: 100%;
+}
+img{
+   width: 12rem;
+   margin: 0% 5%;
+   padding-left: 10%;
+}
+.items{
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    text-transform: capitalize;
+    width: 40%;
+    
+}
+
+.nav_bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background: chartreuse; */
+    padding: 5% 2%;
+}
+ li {
+    margin: 0% 4%;
+    font-size: 1.2rem;
+    list-style: none;
+ }
+ 
+a{
+  color: #676868 ;
+}
+ a:link {
+  text-decoration: none;
+}
+
+ section{
+     /* height: 70vh; */
+     background: white;
+     width: 90%;
+     margin: 0px auto;
+     border-radius: 5%;
+     margin-bottom: 5%;
+     padding: 4% 0;
+ }
+
+ h1{
+     display: flex;
+     justify-content: center;
+     padding-top: 4%;
+     color: #004523;
+     font-size: 2rem;
+     margin-bottom: 4%;
+ }
+
+ p{
+     margin: 0 5%;
+     font-size: 18px;
+     color: rgb(66, 66, 66);
+ }
+ .sign{
+     width: 20%;
+     padding-left: 0;
+ }
+/* ================= Order details================= */
+ .order_details{
+     padding-top: 5%;
+   
+    
+ }
+ 
+ .order_d{
+     display: flex;
+     justify-content: space-between;
+     margin: -4% 4%;
+ }
+ .line{
+     width: 92%;
+     margin: 3% auto;
+     /* background: darkblue; */
+     border: 2.5px solid #004523;
+    
+ }
+ .orderpic img {
+    width: 25%;
+    margin-left: -10%;
+    font-size: 1.3rem;
+ }
+ .orderpic{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+ .dotted{
+    width: 92%;
+    margin: 0 auto;
+    border-top: 1px dotted #a7a8a7;
+ }
+
+ /* ==========shipping address box ============== */
+ h3{
+   background: none;
+ }
+ /* =========== social icons ========== */
+ .socials-con {
+    margin-top: 0.5em;
+    
+  }
+  .socials {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2%;
+  }
+  
+  .socials i {
+    color: #fff;
+  }
+  
+  .soc-icon {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 8px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  
+    margin-right: 6px;
+    cursor: pointer;
+  }
+  
+  .fb .soc-icon {
+    background-color: #15c;
+  }
+  .ytube .soc-icon {
+    background-color: #bb312c;
+  }
+  
+  .Ig .soc-icon {
+    background-color:  #C13584;
+  }
+  
+  .inner-foot {
+    text-align: center;
+    margin-top: 1em;
+  }
+  /* ================the main footer=========== */
+  /****mail-footer******/
+
+.mail-ftr {
+    background-color: #004523;
+    color: rgba(255, 255, 255, 0.8);
+    padding: 2em 10px;
+    text-align: center;
+    word-spacing: normal;
+    font-size: 12px;
+  }
+.footer_p{
+  color: rgb(202, 201, 201);
+}
+  
+  .mail-ftr p a {
+    color: #fff;
+    font-weight: 500;
+  }
+  
+  .unsub span:nth-child(2) {
+    width: 1px;
+    height: 14px;
+    display: inline-block;
+    background: #fff;
+    margin: 0 10px;
+  }
+  
+
+  /* ============== MEDIA QUERIES ++=================== */
+
+  /* ==========FOR PHONE SCREEN================== */
+  @media screen and (max-width: 575px) {
+    body{
+      width: 100%;
+      }
+    main{
+      width: 90%;
+      }
+    img{
+      width: 6rem;
+      }
+    li{
+      font-size: 0.6rem;
+      }
+    h1{
+      display: flex;
+      flex-wrap: wrap;
+      font-size: 22px;
+      text-align: center;
+    }
+    p{
+      font-size: 15px;
+    }
+    h3{
+      font-size: 17px;
+    }
+    
+   
+}
+/* ====================FOR TABLET================= */
+@media screen and (min-device-width : 768px) and (max-device-width : 1024px)  {
+  body{
+    width: 100%;
+    }
+  main{
+    width: 90%;
+    }
+  img{
+    width: 12rem;
+    }
+  li{
+    font-size: 1rem;
+    }
+  h1{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 25px;
+    text-align: center;
+  }
+  p{
+    font-size: 17px;
+  }
+  h3{
+    font-size: 17px;
+  }
+  }
